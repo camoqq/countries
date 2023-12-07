@@ -4,8 +4,6 @@ import Items, { itemProps } from "./Items";
 import { get } from "./http";
 
 type rawData = {
-  // id: number;
-  // userId: number;
   name: nameData;
   flag: string;
   continents: string;
