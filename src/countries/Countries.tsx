@@ -29,7 +29,6 @@ function Countries() {
         //converted data should be an array
         const trasnformedData: itemProps[] = data.map((item) => {
           return {
-            // id: item.id,
             nameCountry: item.name["common"],
             flagCountry: item.flag,
             cont: item.continents,
