@@ -10,16 +10,22 @@ html {
 
 body {
   min-height: 100vh;
+  background-color: rgb(7, 2, 42);
 }
 .parent {
   display: flex;
+  background-color: rgb(7, 2, 42);
+  /* border-radius: 10px; */
+}
+.lis {
+  background-color: rgb(7, 2, 42);
 }
 main {
   width: 30%;
   /* max-width: 40rem; */
   margin: 1rem;
   padding: 1rem;
-  background-color: #343852;
+  background-color: #28263e;
   color: #f0f6f8;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -32,7 +38,7 @@ main {
   max-height: 40rem;
   margin: 1rem;
   padding: 1rem;
-  background-color: #343852;
+  background-color: #28263e;
   color: #f0f6f8;
   border-radius: 6px;
   flex-grow: 1;
@@ -120,10 +126,10 @@ li {
 .items {
   padding: 1rem;
   overflow: scroll;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 8px;
   height: 50vh;
-  background-color: #f0f6f8;
+  background-color: rgb(7, 2, 42);
 }
 li article {
   display: flex;

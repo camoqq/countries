@@ -1,5 +1,4 @@
 export type itemProps = {
-
   nameCountry: string;
   flagCountry: string;
   cont: string;
